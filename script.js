@@ -5,7 +5,7 @@ var principal = document.getElementById("principal").value;
 
 function myFunction() {
     // If amount/principal is Not a Number or less than one;
-        if (isNaN(principal) || principal < 0 ||principal=='') {
+        if (isNaN(principal) || principal < 1 ||principal=='') {
         alert("Please enter a positive amount");
         document.getElementById("result").innerHTML='';
         fail;
