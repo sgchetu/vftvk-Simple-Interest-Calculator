@@ -1,5 +1,9 @@
 function compute()
 {
+function setFocusToTextBox(){
+     document.getElementById("principal").focus();
+    }
+setFocusToTextBox();
 
 var principal = document.getElementById("principal").value;
     
